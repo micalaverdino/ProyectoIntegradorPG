@@ -26,3 +26,6 @@ let suma = numero1 + numero2;
 console.log(
 "El numero 1 es " + numero1 + " y el numero 2 es " + numero2 + " el resultado da " + suma
 );
+
+let sumaVariables = suma + 200;
+console.log(sumaVariables);
