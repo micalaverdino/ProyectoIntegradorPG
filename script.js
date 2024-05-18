@@ -16,10 +16,13 @@ console.log("División", resultdivision);
 */
 /* Tarea Clase 10 */
 let nombre = "Lionel";
-let apellido = Messi;
-console.log(nombre + " " + apellido);
-let numberone=1996
-let numbertwo=1998
-let numberthree=223
-let resultsuma = numberone + numberone;
-console.log("Suma", resultsuma);
+let apellido = "Messi";
+console.log(nombre + apellido);
+
+let numero1=1996
+let numero2=1998
+
+let suma = numero1 + numero2;
+console.log(
+"El numero 1 es " + numero1 + " y el numero 2 es " + numero2 + " el resultado da " + suma
+);
