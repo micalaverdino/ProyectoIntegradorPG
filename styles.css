@@ -1,0 +1,17 @@
+/* Header */
+.header{ 
+    color: black;
+}
+.container-fluid {
+    background: #909a92;
+}
+#navbarNavDropdown {
+    background: #d5c6dc;
+    background-color: #fff;
+}
+/*Body - Section*/
+body{
+    background:#828085
+}
+/* Titulo h2 Video destacado */
+/* Aside - h3 - p */
