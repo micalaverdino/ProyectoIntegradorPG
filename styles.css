@@ -11,16 +11,17 @@
     background-color: #fff;
 }
 /*Body - Section*/
-body{
-    background:#828085
+body {
+    background:#828085;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Titulo h2 Video destacado */
 /* Aside - h3 - p - imagen*/
-.h3 {
+.title1 {
     width: 50%;
     height: 28%;
     font-family: Arial, sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
 }
 .p {
@@ -37,3 +38,29 @@ footer {
     color: yellow
 }
 /* MEDIA */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    font-size: 400;
+    padding: 20px;
+}
+.linea {
+    height: 10px;
+    width: 100%;
+    display: block;
+    background-color: #d5c6dc;
+}
+.galeria{
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
+}
+.image1 {
+    width: 130px;
+    height: 130px;
+    border: 5px solid black;
+}
