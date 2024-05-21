@@ -48,19 +48,50 @@ h2{
     font-size: 400;
     padding: 20px;
 }
-.linea {
-    height: 10px;
-    width: 100%;
-    display: block;
-    background-color: #d5c6dc;
+/* ENTREVISTAS*/
+.title2 {
+    letter-spacing: 1rem;
+    text-shadow: rgba(54, 15, 112, 0.667);
+    text-align: center;
+    font-size: 45px;
+    padding: 5px;
 }
-.galeria{
-    background: #ffffff;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
+.card {
+    background: #909a9225;
+    border: #909a92;
+    text-align: left;
+    width: 200px;
+    height:auto;
+    border: 1px solid rgba(0, 0, 0, 0.374);
+    margin-left: 200px;
+    padding: 5px;
+    border-radius: 20%;
 }
-.image1 {
-    width: 130px;
-    height: 130px;
-    border: 5px solid black;
+.cards {
+    background: #909a9225;
+    border: #909a92;
+    text-align: left;
+    width: 200px;
+    height:auto;
+    border: 1px solid rgba(0, 0, 0, 0.374);
+    margin-left: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card-img-top{
+    border-top-left-radius: 10px;
+}
+/* Carrousel*/
+.title3 {
+    color: #340a51ac;
+}
+.comicon {
+    color: whitesmoke;
+}
+.title5 {
+    color: rgb(0, 0, 0);
+}
+.fotogaleria {
+    width: 1500px !important;
+    height: 900px;
 }
