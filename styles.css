@@ -1,10 +1,10 @@
 /* INICIO */
 /* Header */
-.header{ 
+.header{
     color: black;
 }
 .container-fluid {
-    background: #909a92;
+    background: #000000ae;
 }
 #navbarNavDropdown {
     background: #d5c6dc;
@@ -12,7 +12,7 @@
 }
 /*Body - Section*/
 body {
-    background:#828085;
+    background:#9c99a143;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Titulo h2 Video destacado */
@@ -58,7 +58,7 @@ h2{
 }
 .card {
     background: #909a9225;
-    border: #909a92;
+    border: gainsboro;
     text-align: left;
     width: 200px;
     height:auto;
@@ -66,30 +66,41 @@ h2{
     margin-left: 200px;
     padding: 5px;
     border-radius: 20%;
+    box-shadow: 10px 10px 5px 10px #381fc877;
 }
+/* RETOS */
 .cards {
     background: #909a9225;
-    border: #909a92;
+    border: rgba(235, 235, 235, 0.648);
     text-align: left;
     width: 200px;
     height:auto;
     border: 1px solid rgba(0, 0, 0, 0.374);
     margin-left: 200px;
-    padding: 5px;
+    padding: 15px;
     border-radius: 10px;
+    box-shadow: 10px 10px 5px 10px #a60fe7c8;
 }
 .card-img-top{
     border-top-left-radius: 10px;
 }
-/* Carrousel*/
+.card-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-title4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 1rem;
+}
+/* GALERIA DE FOTOS */
 .title3 {
     color: #340a51ac;
 }
 .comicon {
     color: whitesmoke;
+    text-align: center;
 }
 .title5 {
-    color: rgb(0, 0, 0);
+    color: whitesmoke;
 }
 .fotogaleria {
     width: 1500px !important;
