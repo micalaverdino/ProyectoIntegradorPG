@@ -1,4 +1,10 @@
 /* INICIO */
+@media only screen and (min-width:320px) and (max-width: 1280px){
+    .contenedor {
+        width: 100%;
+        padding-left: 20px;
+    }
+}
 /* Header */
 .header{
     color: black;
@@ -10,7 +16,13 @@
     background: #d5c6dc;
     background-color: #fff;
 }
-/*Body - Section*/
+/*Body - Articulos - Section */
+.estilo {
+    background-color: black;
+}
+.fotos {
+    height: 750px;
+}
 body {
     background:#9c99a143;
     font-family: Arial, Helvetica, sans-serif;
@@ -58,15 +70,15 @@ h2{
 }
 .card {
     background: #909a9225;
-    border: gainsboro;
+    border: rgba(255, 0, 0, 0.892);
     text-align: left;
     width: 200px;
     height:auto;
     border: 1px solid rgba(0, 0, 0, 0.374);
     margin-left: 200px;
-    padding: 5px;
-    border-radius: 20%;
-    box-shadow: 10px 10px 5px 10px #381fc877;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #ffec1f;
 }
 /* RETOS */
 .cards {
@@ -79,7 +91,7 @@ h2{
     margin-left: 200px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px 10px #a60fe7c8;
+    box-shadow: 5px 5px 5px 5px #a60fe7c8;
 }
 .card-img-top{
     border-top-left-radius: 10px;
@@ -90,6 +102,10 @@ h2{
 .card-title4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 1rem;
+}
+.boton {
+    text-align: center;
+    background-color: rgb(7, 0, 139);
 }
 /* GALERIA DE FOTOS */
 .title3 {
@@ -106,3 +122,18 @@ h2{
     width: 1500px !important;
     height: 900px;
 }
+/* CASTERS */
+.card {
+    display: grid;
+    ;
+    justify-content: space-around;
+    margin-right: 100px;
+    background-attachment: fixed;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+.card1 {
+    text-transform: uppercase;
+}
+
