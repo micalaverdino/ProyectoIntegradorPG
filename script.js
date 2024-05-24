@@ -88,8 +88,10 @@ for (let i = 0; i < menu.length; i++) {
             console.log('Elija carne, pescado o verdura');
     }
 }
-// CLASE 12
+
 /*
+// CLASE 12
+
 // Declarar variables
 let numero = 1;  // Número inicial
 let suma = 0;    // Variable para almacenar la suma
@@ -139,7 +141,7 @@ function parImpar(numero) {
     return "impar";
   }
 }
-*/
+
 let nombre = prompt('Ingrese su nombre');
 function saludo() {
     if (nombre) {
@@ -151,3 +153,4 @@ function saludo() {
 }
 
 saludo();
+*/

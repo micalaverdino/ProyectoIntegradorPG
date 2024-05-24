@@ -10,15 +10,48 @@
     color: black;
 }
 .container-fluid {
-    background: #000000ae;
+    background: #070403;
 }
+.logo-crosshair {
+    cursor: crosshair;
+}
+/* barra de navegacion */
 #navbarNavDropdown {
-    background: #d5c6dc;
-    background-color: #fff;
+    background-color: #5100ae;
+    
+}
+
+.image-style-width{
+    width: 100%;
+}
+#navtitle {
+    color: white;
+    cursor: crosshair ;   
+    background-color: #5100ae;
+    
+}
+#navtitle:hover {
+    background-color: #070403;
+}
+a.dropdown-item:visited {color:#000;}
+a.dropdown-item:hover {background:#5100ae;}
+a:hover, a:active {
+    background-color: #070403;
+    color: white;
+}
+span {
+    cursor: crosshair;
+    border-color: #9e8a7c;
+    background-color: #070403;
 }
 /*Body - Articulos - Section */
+.videotitulo {
+    font-family:Arial, Helvetica, sans-serif
+}
 .estilo {
     background-color: black;
+    
+    padding-left: 20px;
 }
 .fotos {
     height: 750px;
@@ -26,11 +59,15 @@
 body {
     background:#9c99a143;
     font-family: Arial, Helvetica, sans-serif;
+    width:99%;
+}
+.contenedor {
+    background-color: black;
 }
 /* Titulo h2 Video destacado */
 /* Aside - h3 - p - imagen*/
 .title1 {
-    width: 50%;
+    width: 100%;
     height: 28%;
     font-family: Arial, sans-serif;
     font-size: 30px;
@@ -43,11 +80,18 @@ body {
     font-style: oblique;
     text-align: justify;
 }
+.videotitulo {
+    text-align: justify;
+}
 /* Footer */
 footer {
-    background: linear-gradient(#572975 , #744f78);
-    align-content: center;
-    color: yellow
+    background:#070403;
+    color: #796253;
+}
+.tktk {
+    color: #c4b6ab;
+    width: 150px;
+    height: 150px;
 }
 /* MEDIA */
 *{
@@ -69,21 +113,18 @@ h2{
     padding: 5px;
 }
 .card {
-    background: #909a9225;
-    border: rgba(255, 0, 0, 0.892);
-    text-align: left;
     width: 200px;
     height:auto;
     border: 1px solid rgba(0, 0, 0, 0.374);
     margin-left: 200px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px #ffec1f;
+    box-shadow: 5px 5px 5px 5px #726957
 }
 /* RETOS */
 .cards {
     background: #909a9225;
-    border: rgba(235, 235, 235, 0.648);
+    border: rgb(103, 49, 212);
     text-align: left;
     width: 200px;
     height:auto;
@@ -103,10 +144,6 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 1rem;
 }
-.boton {
-    text-align: center;
-    background-color: rgb(7, 0, 139);
-}
 /* GALERIA DE FOTOS */
 .title3 {
     color: #340a51ac;
@@ -123,9 +160,16 @@ h2{
     height: 900px;
 }
 /* CASTERS */
+* {
+    box-sizing: border-box;
+}
+main {
+    text-align: center;
+    font-size: medium;
+}
+
 .card {
     display: grid;
-    ;
     justify-content: space-around;
     margin-right: 100px;
     background-attachment: fixed;
@@ -137,3 +181,13 @@ h2{
     text-transform: uppercase;
 }
 
+.img-container {
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

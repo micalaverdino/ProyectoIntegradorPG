@@ -6,13 +6,12 @@
     <title>Nosotros | PG</title>
     <link rel="stylesheet" href="/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="icon" href="./Imagenes/PG2024 (1).png" />
-        <script src="https://kit.fontawesome.com/24e2f707f7.js" crossorigin="anonymous">
-        </script>
-        <link rel="stylesheet" href="font.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Imagenes/PG2024 (1).png" />
+    <script src="https://kit.fontawesome.com/24e2f707f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body style="background-color: black;">
     <header>
@@ -22,35 +21,35 @@
                     <img src="../Imagenes/PG2024 (1).png" alt="Logo del sitio" class="logo" />
                 </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon" style="cursor:crosshair"></span><br>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./media.html">Media</a>
+                    <a class="nav-link active" id="navtitle" aria-current="page" href="./media.html">Media</a>
                         </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="./staff.html">Staff</a>
+                    <a class="nav-link" id="navtitle" href="./staff.html">Staff</a>
                         </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./streamers.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Streamers
+                    <a class="nav-link dropdown-toggle" id="navtitle" href="./streamers.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Streamers
                         </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./casters.html">Casters</a></li>
-                    <li><a class="dropdown-item" href="./cdc.html">Creadores de Contenidos</a></li>
+                    <li><a class="dropdown-item" id="navtitle" href="./casters.html">Casters</a></li>
+                    <li><a class="dropdown-item" id="navtitle" href="./cdc.html">Creadores de Contenidos</a></li>
                 </ul>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/Paginas/torneos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Torneos</a>
+                    <a class="nav-link dropdown-toggle" id="navtitle" href="/Paginas/torneos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Torneos</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/Paginas/circuitos.html">Circuitos</a></li>
-                        <li><a class="dropdown-item" href="/Paginas/counterstrike.html">Counter Strike</a></li>
-                        <li><a class="dropdown-item" href="/Paginas/valorant.html">Valorant</a></li>
+                        <li><a class="dropdown-item" id="navtitle" href="/Paginas/circuitos.html">Circuitos</a></li>
+                        <li><a class="dropdown-item" id="navtitle" href="/Paginas/counterstrike.html">Counter Strike</a></li>
+                        <li><a class="dropdown-item" id="navtitle" href="/Paginas/valorant.html">Valorant</a></li>
                     </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="./sponsors.html">Sponsors</a>
+                        <a class="nav-link" id="navtitle" href="./sponsors.html">Sponsors</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="./quienessomos.html">Nosotros</a>
+                        <a class="nav-link" id="navtitle" href="./quienessomos.html">Nosotros</a>
                         </li>
                     </li>
                 </ul>
@@ -60,10 +59,10 @@
     </header>
     <main>
         <section>
-            <h3 class="titulo1">SOBRE NOSOTROS</h3>
+            <h3 class="titulo1"><b>SOBRE NOSOTROS</b></h3>
             <br>
             <p>Punto Gamers nace en 2018 como una comunidad de Counter-Strike 1.6, fundada por sus dueños Moisés Sandoval y Lucas Fortino.</p>
-            <p>En 2022, comenzó a formarse lo que hoy se conoce como Punto Gamers, una organización de torneos esports que se enfoca y especializa en la creación, ejecución de torneos y entretenimientos en diversos juegos y eventos presenciales.</p>
+            <p>En 2022, comenzó a formarse lo que hoy se conoce como Punto Gamers, una <em>organización</em> de torneos esports que se enfoca y especializa en la creación, ejecución de torneos y entretenimientos en diversos juegos y eventos presenciales.</p>
             <br>
             <h5>VISIÓN</h5>
             <p>Nuestra visión como organización es posicionarnos en la escena de los e-sports a nivel nacional y mundial.</p>
@@ -96,29 +95,24 @@
     <footer>
         <br>
         <a href="https://www.twitch.tv/puntogamers_" target="_blank">
-            <i class="fa-brands fa-twitch" style="color: #000000;"></i>
+            <i class="fa-brands fa-twitch tktk" style="color: #c4b6ab;"></i>
         </a>
         <a href="https://www.instagram.com/puntogamers_" target="_blank">
-            <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+            <i class="fa-brands fa-instagram tktk" style="color: #c4b6ab;"></i>
         </a>
         <a class="edgtf-social-icon-widget-holder edgtf-icon-has-hover" href="https://www.twitter.com/Puntogamers_" target="_blank">
-            <span class="edgtf-social-icon-widget fab fa-twitter" style="color: #000000;">
+            <span class="edgtf-social-icon-widget fab fa-twitter" style="color: #c4b6ab;">
             </span>
         </a>
         <a href="https://wwww.tiktok.com/@puntogamers" target="_blank">
-            <i class="fa-brands fa-tiktok" style="color: #000000;"></i>
+            <i class="fa-brands fa-tiktok tktk" style="color: #c4b6ab;"></i>
         </a>
         <a href="https://www.youtube.com/@puntogamers_" target="_blank">
-            <i class="fa-brands fa-youtube" style="color: #000000;"></i>
+            <i class="fa-brands fa-youtube tktk" style="color: #c4b6ab;"></i>
         </a>
         <a href="https://discord.com/invite/puntogamers" target="_blank">
-            <i class="fa-brands fa-discord" style="color: #000000;"></i>
+            <i class="fa-brands fa-discord tktk" style="color: #c4b6ab;"></i>
         </a>
-        <br>
-                <p>&copy; 2024 Punto Gamers® Todos los derechos reservados. </p>
-        <br>
-                <p>Página realizada por Micaela Laverdino.</p>
-        <br>
         <nav>
             <ul>
                 <li><a href="/index.html">Inicio</a></li>
@@ -131,10 +125,15 @@
             </ul>
         </nav>
         <br>
-                <p>&copy; 2024 - Punto Gamers® - Todos los derechos reservados. </p>
-        <br>
-                <p>Página realizada por Micaela Laverdino.</p>
-        <br>
+                <p style="color: #eae5e1;">&copy; 2024 - Punto Gamers® - Todos los derechos reservados. </p>
+        <address style="color: #eae5e1;">
+            Página realizada por Micaela Laverdino<br>
+            Visita:<br>
+            https://www.puntogamers.ar<br>
+            San Nicolás de los Arroyos, Buenos Aires<br>
+            Argentina
+            </address>
+            <br>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="/script.js"></script>
