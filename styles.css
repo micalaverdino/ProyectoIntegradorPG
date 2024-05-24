@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Black.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* INICIO */
 @media only screen and (min-width:320px) and (max-width: 1280px){
     .contenedor {
@@ -30,6 +37,14 @@
     background-color: #5100ae;
 }
 #navtitle:hover {
+    background-color: #070403;
+}
+.navtitle {
+    color: white!important;
+    cursor: crosshair ;
+    background-color: #5100ae;
+}
+.navtitle:hover {
     background-color: #070403;
 }
 a.dropdown-item:visited {color:#000;}
@@ -121,6 +136,10 @@ h2{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #726957
+}
+.card:hover{
+    scale: 1.01;
+    cursor: pointer;
 }
 /* RETOS */
 .cards {
