@@ -26,9 +26,8 @@
 }
 #navtitle {
     color: white;
-    cursor: crosshair ;   
+    cursor: crosshair ;
     background-color: #5100ae;
-    
 }
 #navtitle:hover {
     background-color: #070403;
@@ -50,7 +49,6 @@ span {
 }
 .estilo {
     background-color: black;
-    
     padding-left: 20px;
 }
 .fotos {
@@ -82,6 +80,9 @@ body {
 }
 .videotitulo {
     text-align: justify;
+}
+.imagepg {
+    width: 70%;
 }
 /* Footer */
 footer {
