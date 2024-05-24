@@ -99,16 +99,7 @@ body {
 .imagepg {
     width: 70%;
 }
-/* Footer */
-footer {
-    background:#070403;
-    color: #796253;
-}
-.tktk {
-    color: #c4b6ab;
-    width: 150px;
-    height: 150px;
-}
+
 /* MEDIA */
 *{
     box-sizing: border-box;
@@ -210,4 +201,20 @@ main {
     content: "";
     clear: both;
     display: table;
+}
+/* FOOTER */
+footer {
+    background:#070403;
+    color: #796253;
+}
+.icons {
+    height: 50px;
+    padding: 10px;
+    margin: 80px;
+}
+.piepag {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
