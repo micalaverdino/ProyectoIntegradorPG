@@ -5,14 +5,14 @@
     font-style: normal;
 }
 
-/* INICIO */
+/* PAGINA DE INICIO INDEX */
 @media only screen and (min-width:320px) and (max-width: 1280px){
     .contenedor {
         width: 100%;
         padding-left: 20px;
     }
 }
-/* Header */
+/* HEADER */
 .header{
     color: black;
 }
@@ -22,12 +22,11 @@
 .logo-crosshair {
     cursor: crosshair;
 }
-/* barra de navegacion */
+/* BARRA DE NAVEGACIÓN */
 #navbarNavDropdown {
     background-color: #5100ae;
     
 }
-
 .image-style-width{
     width: 100%;
 }
@@ -58,7 +57,7 @@ span {
     border-color: #9e8a7c;
     background-color: #070403;
 }
-/*Body - Articulos - Section */
+/*BODY - ARTICULOS - SECTION */
 .videotitulo {
     font-family:Arial, Helvetica, sans-serif
 }
@@ -77,8 +76,22 @@ body {
 .contenedor {
     background-color: black;
 }
-/* Titulo h2 Video destacado */
-/* Aside - h3 - p - imagen*/
+/* VIDEO DESTACADO */
+
+/* ASIDE */
+.comprarentrada {
+    box-sizing: initial;
+    border-radius: 2px;
+    border-bottom-color: blue;
+    border-right-color: blue;
+    border-top-color: #eae5e1;
+    border-left-color: #eae5e1;
+    font-family: helvetica;
+    font-size: small;
+    background-color: yellow;
+    width: 55px;
+}
+/*- h3 - p - imagen*/
 .title1 {
     width: 100%;
     height: 28%;
@@ -100,18 +113,18 @@ body {
     width: 70%;
 }
 
-/* MEDIA */
-*{
+/* PAGINA MEDIA */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-h2{
+h2 {
     text-align: center;
     font-size: 400;
     padding: 20px;
 }
-/* ENTREVISTAS*/
+/* SECCION ENTREVISTAS*/
 .title2 {
     letter-spacing: 1rem;
     text-shadow: rgba(54, 15, 112, 0.667);
@@ -132,7 +145,7 @@ h2{
     scale: 1.01;
     cursor: pointer;
 }
-/* RETOS */
+/* SECCION RETOS */
 .cards {
     background: #909a9225;
     border: rgb(103, 49, 212);
@@ -155,7 +168,7 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 1rem;
 }
-/* GALERIA DE FOTOS */
+/* SECCION GALERIA DE FOTOS */
 .title3 {
     color: #340a51ac;
 }
@@ -170,7 +183,8 @@ h2{
     width: 1500px !important;
     height: 900px;
 }
-/* CASTERS */
+/* PAGINA STREAMERS */
+/*CASTERS */
 * {
     box-sizing: border-box;
 }
