@@ -50,7 +50,7 @@ console.log("Cantidad de nombre:" , nombres.length);
 for(let i = 0; i< nombres.length; i++){
     console.log(nombres[i]);
 }*/
-
+// CLASE 10
 let topping = "Oreo";
 let precio = 0;
 let precioFinal = 0;
@@ -88,7 +88,12 @@ for (let i = 0; i < menu.length; i++) {
             console.log('Elija carne, pescado o verdura');
     }
 }
-
+let juegos = ["Counter Strike", "Dota2", "Fortnite", "League of Legends"];
+juegos.push("Valorant");
+for(let i=0; i<juegos.length; i++)
+    {
+        console.log(juegos[i])
+    }
 /*
 // CLASE 12
 

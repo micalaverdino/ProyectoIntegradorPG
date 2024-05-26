@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('./fonts/Montserrat-Black.ttf') format('woff2');
@@ -72,11 +80,24 @@ body {
     background:#9c99a143;
     font-family: Arial, Helvetica, sans-serif;
     width:99%;
+    background-image: url(/Imagenes/PUNTOG.png);
 }
 .contenedor {
     background-color: black;
 }
 /* VIDEO DESTACADO */
+.video {
+    margin-left: 40px;
+    padding-left: 12px;
+    margin-bottom: 50px;
+    padding-top: 250px;
+    padding-bottom: 75px;
+
+}
+.titulovideo {
+    padding: 80px;
+    margin-left: 90px;
+}
 
 /* ASIDE */
 .comprarentrada {
@@ -86,10 +107,11 @@ body {
     border-right-color: blue;
     border-top-color: #eae5e1;
     border-left-color: #eae5e1;
-    font-family: helvetica;
+    font-family: sans-serif;
     font-size: small;
     background-color: yellow;
     width: 55px;
+    text-align: center;
 }
 /*- h3 - p - imagen*/
 .title1 {
@@ -122,30 +144,35 @@ body {
 h2 {
     text-align: center;
     font-size: 400;
-    padding: 20px;
 }
 /* SECCION ENTREVISTAS*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 500px auto;
+}
 .title2 {
     letter-spacing: 1rem;
-    text-shadow: rgba(54, 15, 112, 0.667);
+    text-shadow: rgba(251, 251, 251, 0.935);
     text-align: center;
     font-size: 45px;
     padding: 5px;
 }
 .card {
-    width: 200px;
     height:auto;
     border: 1px solid rgba(0, 0, 0, 0.374);
-    margin-left: 200px;
-    padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px #726957
+    box-shadow: 5px 5px 5px 5px #726957;
+    margin: auto;
+    width: 300px;
 }
 .card:hover{
     scale: 1.01;
     cursor: pointer;
 }
 /* SECCION RETOS */
+/*
 .cards {
     background: #909a9225;
     border: rgb(103, 49, 212);
@@ -158,8 +185,25 @@ h2 {
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #a60fe7c8;
 }
+*/
+.cards {
+    background: rgba(22, 21, 21, 0.242);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgb(0, 0, 0);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(101, 110, 162, 1);
+    color: #e0e0e0;
+    text-align: center;
+    margin-left: 350px;
+}
+.botonyt {
+    margin: 30px;
+    background-color: rgb(24, 24, 214);
+}
 .card-img-top{
     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .card-text {
     font-family: Arial, Helvetica, sans-serif;
@@ -170,7 +214,7 @@ h2 {
 }
 /* SECCION GALERIA DE FOTOS */
 .title3 {
-    color: #340a51ac;
+    color: #ffffff;
 }
 .comicon {
     color: whitesmoke;
@@ -182,6 +226,7 @@ h2 {
 .fotogaleria {
     width: 1500px !important;
     height: 900px;
+    margin-left: 10px;
 }
 /* PAGINA STREAMERS */
 /*CASTERS */
@@ -196,7 +241,6 @@ main {
 .card {
     display: grid;
     justify-content: space-around;
-    margin-right: 100px;
     background-attachment: fixed;
     flex-direction: row;
     align-items: center;
@@ -216,6 +260,11 @@ main {
     clear: both;
     display: table;
 }
+/* PAGINA SPONSORS*/
+section {
+    flex-direction: column;
+
+}
 /* FOOTER */
 footer {
     background:#070403;
@@ -225,10 +274,16 @@ footer {
     height: 50px;
     padding: 10px;
     margin: 80px;
+    width: 50px;
+}
+#tok {
+    height: 50px;
+    width: 50px;
 }
 .piepag {
     font-size: 1rem;
     text-align: center;
     padding: 0;
     margin: 0;
+    color: #9e8a7c;
 }
