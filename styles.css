@@ -33,7 +33,6 @@
 /* BARRA DE NAVEGACIÓN */
 #navbarNavDropdown {
     background-color: #5100ae;
-    
 }
 .image-style-width{
     width: 100%;
@@ -186,7 +185,7 @@ h2 {
     box-shadow: 5px 5px 5px 5px #a60fe7c8;
 }
 */
-.cards {
+.card {
     background: rgba(22, 21, 21, 0.242);
     border-radius: 16px;
     box-shadow: 0 4px 20px rgb(0, 0, 0);
