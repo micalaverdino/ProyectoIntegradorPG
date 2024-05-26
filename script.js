@@ -51,7 +51,7 @@ for(let i = 0; i< nombres.length; i++){
     console.log(nombres[i]);
 }*/
 // CLASE 10
-let topping = "Oreo";
+/* let topping = "Oreo";
 let precio = 0;
 let precioFinal = 0;
 let helado = 200;
@@ -68,7 +68,7 @@ if(topping == "Oreo") {
 
 precioFinal = helado + precio;
 console.log("El helado cuesta $" + precioFinal)
-
+*/
 //CLASE 11 - TAREA
 let menu = ['pescado, carne, verdura'];
 for (let i = 0; i < menu.length; i++) {
