@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('./fonts/Montserrat-Black.ttf') format('woff2');
+    src: url('./fonts/Montserrat-SemiBold.ttf') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -286,3 +286,32 @@ footer {
     margin: 0;
     color: #9e8a7c;
 }
+/* PAGINA TORNEOS */
+/* CIRCUITOS */
+section {
+    display: flex;
+}
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 350px 350px 350px;
+    gap: 5px;
+    background-color: #2195f300;
+    padding: 20px;
+}
+.grid-container > div {
+        background-color: rgba(30, 27, 27, 0.32);
+        text-align: center;
+        padding: 20px 0;
+        gap: 5px;
+
+}
+.grid-item {
+    background: rgba(0, 0, 0, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(0, 0, 0, 0.34);
+}
+
