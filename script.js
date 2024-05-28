@@ -14,7 +14,7 @@ console.log("Resta", resultresta);
 console.log("Multiplicacion", resultmulti);
 console.log("División", resultdivision);
 
-// Tarea Clase 10 
+// Tarea Clase 10
 let nombre = "Lionel";
 let apellido = "Messi";
 console.log(nombre + apellido);
@@ -161,3 +161,24 @@ function saludo() {
 
 saludo();
 */
+/*
+window.alert("Si le da a aceptar, le entrará virus");*/
+/*
+let usuario = prompt("Por favor ingrese su nombre", "");
+function saludo() {
+    if (usuario) {
+        alert("Bienvenido" + usuario + "!");
+} else
+        alert("Bienvenido a PUNTO GAMERS");
+}*/
+function validarIngreso() {
+    let usuario = document.getElementById('usuario').value;
+
+    // Validar la entrada del usuario
+    if (usuario !== 'condicionCumplida') {
+        alert('No cumples con los requisitos para ingresar al sitio');
+        return false; // Evita que el formulario se envíe
+    }
+    // Si la entrada es válida, permitir el ingreso
+    return true;
+}

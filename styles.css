@@ -62,12 +62,14 @@ span {
 /*BODY - ARTICULOS - SECTION */
 body {
     background:#9c99a143;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat, Arial";
     width:99%;
     background-image: url(/Imagenes/PUNTOG.png);
+    color: rgba(255, 255, 0, 0.805);
 }
 .videotitulo {
-    font-family:Arial, Helvetica, sans-serif
+    font-size: 1.5rem;
+    margin-right: 30px;
 }
 .estilo {
     background-color: black;
@@ -109,7 +111,6 @@ body {
     padding: 80px;
     margin-left: 90px;
 }
-
 /* ASIDE */
 .comprarentrada {
     box-sizing: initial;
@@ -190,6 +191,7 @@ h2 {
     margin: auto;
     padding: auto;
     display: flex;
+    margin-right: 1920px;
 }
 /* SECCION RETOS */
 .grid-container {
@@ -261,10 +263,10 @@ h2 {
     border-top-right-radius: 10px;
 }
 .card-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat';
 }
 .card-title4 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     height: 1rem;
 }
 /* SECCION GALERIA DE FOTOS */
@@ -387,7 +389,7 @@ table {
 }
 .b {
     color: whitesmoke;
-    text-decoration: none;
+    text-decoration: underline;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
@@ -444,15 +446,27 @@ section {
     color: whitesmoke;
 }
 /* FORMULARIO*/
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Italic.ttf) format(truetype);
+    font-weight: 300;
+}
 .formus {
-    background-color: #f7ff57;
-    padding: 10px;
+    background-color: #ffffff;
+    padding: 0.5px;
     margin: 20px;
     border: 2px solid #978ceb53;
-    font-family: "Montserrat";
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
     text-align: center;
+    margin-left: 20px;
+    width: 950px;
 }
+.file {
+    margin-left: 5px;
+    text-decoration: none;
+}
+/*
 .forms {
     width: auto;
     justify-content: center;
@@ -463,12 +477,13 @@ section {
     backdrop-filter: blur(5.9px);
     -webkit-backdrop-filter: blur(5.9px);
     border: 1px solid rgba(0, 0, 0, 1);
-}
+}*/
+/*
 input[type="submit"]:hover {
     background-color: #f9f631;
     color: black;
     margin-left: 35px;
-}
+}*/
 h6 {
     color: whitesmoke;
 }
@@ -477,6 +492,26 @@ textarea {
 }
 input {
     align-items: center;
+}
+.formulario {
+    background: rgba(40, 40, 71, 0.728);
+    padding: 30px;
+    width: 415px;
+}
+.formulario-input {
+    padding: 9px 12px;
+    width: 10%;
+    margin: 10px;
+    background: black;
+    color: red;
+}
+.formulario-submit {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: rgba(255, 0, 0, 0.563);
+    color: white;
+    width: 70%;
+    border-bottom-style: groove;
 }
 /* COUNTER STRIKE 2*/
 .strongg {
@@ -487,7 +522,9 @@ input {
 /* PAGINA SPONSORS*/
 section {
     flex-direction: column;
-
+}
+.card-title {
+    padding-top: 15px;
 }
 /* SOBRE NOSOTROS */
 sb {
@@ -526,6 +563,8 @@ footer {
     background: linear-gradient(rgb(24, 13, 146) , rgba(0, 0, 0, 0.949));
     color: #ffffff;
     width: 100%;
+    position: relative;
+    bottom: 0;
 }
 .icons {
     height: 50px;
