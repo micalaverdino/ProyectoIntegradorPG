@@ -70,6 +70,7 @@ precioFinal = helado + precio;
 console.log("El helado cuesta $" + precioFinal)
 */
 //CLASE 11 - TAREA
+/*
 let menu = ['pescado, carne, verdura'];
 for (let i = 0; i < menu.length; i++) {
     let eleccion = menu [i];
@@ -94,6 +95,7 @@ for(let i=0; i<juegos.length; i++)
     {
         console.log(juegos[i])
     }
+*/
 /*
 // CLASE 12
 
@@ -140,11 +142,11 @@ alert("El número " + numero + " es " + resultado);
 
 // Define la función parImpar
 function parImpar(numero) {
-  if (numero % 2 == 0) {
+    if (numero % 2 == 0) {
     return "par";
-  } else {
+    } else {
     return "impar";
-  }
+    }
 }
 
 let nombre = prompt('Ingrese su nombre');
