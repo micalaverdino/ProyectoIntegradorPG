@@ -6,4 +6,6 @@ function Multiplicacion_y_muestra (num) {
         alert("¡Ponete a estudiar!");
     }
 }
-Multiplicacion_y_muestra(num);*/
+Multiplicacion_y_muestra(num); */
+let nombre = prompt("Escribe tu tag");
+alert("Bienvenido/a" + " " + nombre + "a Punto Gamers");
