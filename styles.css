@@ -61,10 +61,8 @@ span {
 }
 /*BODY - ARTICULOS - SECTION */
 body {
-    background:#9c99a143;
-    font-family: "Montserrat, Arial";
-    width:99%;
-    background-image: url(/Imagenes/PUNTOG.png);
+    font-family: "Montserrat, Arial", serif;
+    background: #9c99a143 url(/Imagenes/PUNTOG.png);
 }
 .videotitulo {
     font-size: 1.5rem;
@@ -78,15 +76,11 @@ body {
     height: 750px;
 }
 .pg2 {
-    width: 1700px;
-    height: 400px;
     display: flex;
     justify-content: center;
-    margin-left: 40px;
-    margin-top: 20px;
+    width: 100%;
 }
 .artic1 {
-    width: 80%;
     display: flex;
     justify-content: center;
 }
@@ -94,17 +88,12 @@ body {
     background-color: black;
 }
 /* VIDEO DESTACADO */
+.video-container{
+    height: 550px;
+}
 .video {
-    margin: auto;
-    padding: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 1000px;
-    height: 700px;
-    margin-left: 80px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    width: 60%;
+    height: 100%;
 }
 .titulovideo {
     padding: 80px;
@@ -251,7 +240,6 @@ h2 {
     border: 1px solid rgba(101, 110, 162, 1);
     color: #e0e0e0;
     text-align: center;
-    margin-left: 350px;
 }
 .botonyt {
     margin: 30px;
@@ -562,7 +550,6 @@ sb {
 }
 /* FOOTER */
 footer {
-    background-color: #070403bc;
     width: 100%;
     min-height: 350px;
     padding: 3rem 1rem;
