@@ -512,6 +512,9 @@ input {
     width: 70%;
     border-bottom-style: groove;
 }
+.checcolor {
+    color: white;
+}
 /* COUNTER STRIKE 2*/
 .strongg {
     color: yellow;
