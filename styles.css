@@ -207,47 +207,7 @@ main {
     text-align: center;
     font-size: 1.5rem;
 }
-/* PAGINA STAFF*/
-h3 {
-    font-size: 5rem;
-    text-align: center;
-}
-th, td {
-    border: 5px solid rgba(233, 233, 233, 0.619);
-    padding: 15px;
-    border-collapse: separate;
-    text-align: center;
-}
-
-tr {
-    color: #e0e0e0;
-}
-table {
-    border: 5px rgba(233, 233, 233, 0.347) solid;
-    border-collapse: separate;
-    margin-left: auto;
-    margin-right: auto;
-}
-.equipotec {
-    font-size: 4rem;
-    color: whitesmoke;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-}
-.nombre {
-    font-size: 2rem;
-}
-.subtitulo {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    color: whitesmoke;
-}
-.b {
-    color: whitesmoke;
-    text-decoration: underline;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-}
+/* CREADORES DE CONTENIDOS -  STREAMERS*/
 /* ¿CREADOR DE CONTENIDOS? */
 .imagecdc {
     align-content: left;

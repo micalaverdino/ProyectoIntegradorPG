@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-SemiBold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* HEADER */
+.header{
+    color: black;
+}
+.container-fluid {
+    background: #070403;
+}
+.logo-crosshair {
+    cursor: crosshair;
+}
+/* BARRA DE NAVEGACIÓN */
+#navbarNavDropdown {
+    background-color: #5100ae;
+}
+.image-style-width{
+    width: 100%;
+}
+#navtitle {
+    color: white;
+    cursor: crosshair ;
+    background-color: #5100ae;
+}
+#navtitle:hover {
+    background-color: #070403;
+}
+.navtitle {
+    color: white!important;
+    cursor: crosshair ;
+    background-color: #5100ae;
+}
+.navtitle:hover {
+    background-color: #070403;
+}
+a.dropdown-item:visited {color:#000;}
+a.dropdown-item:hover {background:#5100ae;}
+a:hover, a:active {
+    background-color: #070403;
+    color: white;
+}
+span {
+    cursor: crosshair;
+    border-color: #9e8a7c;
+    background-color: #070403;
+}
+.p-0 {
+    background-color: #5100ae;
+}
+body {
+    font-family: "Montserrat, Arial", serif;
+    background: #9c99a143 url(/Imagenes/PUNTOG.png);
+}
